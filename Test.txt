@@ -1,0 +1,23 @@
+a) git init
+
+b) git add  文件名  把文件放到暂存区
+   1. git add -A 全部加入暂存区
+   2. git add * 全部加入暂存区
+
+C) git config -global user.name/email 配置
+
+d）git status 查看仓库状态
+   1. modified 被修改的
+   2.绿色的代表暂存区的文件
+   3.untrached files 为追踪的文件
+
+e）git checkout 文件名  将暂存区的内容还原到工作区，（撤销更改）
+
+f） git commit -m '标记'
+   1.执行一次commit 就新建了一个版本/存盘点
+   2.可还原到任意一个存盘点
+
+g）git log：查看仓库中的存盘点
+
+h）git reset -hard 提交ID
+
